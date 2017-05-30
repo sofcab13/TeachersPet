@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> TeachersPet.com</title>
+<link rel="stylesheet" type="text/css" href="Style.css" >
+<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+<script type="text/javascript" src="JavaS.js"></script>
+</head> 
+<!-- Navigation Bar -->
+<ul>
+  <li><a class="active" href="file:///Users/yungsofia/Desktop/Teacher'sPet.html">Home</a></li>
+  <li><a href="file:///Users/yungsofia/Desktop/SecondPage.html">Calculate!</a></li>
+  <li><a href="#contact">About</a></li> 
+<div class= "all text-right">
+  <input id="txtEmail" type= "email" placeholder= "Email">
+  <input id="txtPassword" type="password" placeholder= "Password">
+  <button id="btnLogin" class="userbutton" onclick= "login()" > Log in 
+  </button>
+  <button id= "btnSignUp" class="userbutton" onclick= "signup()"> Sign up 
+  </button>
+  <button id= "btnLogout" class="logoutbutton" onclick= "logout()"> Log Out 
+  </button>
+</div>
+</ul>
+<section class="all text-right">
+  <h4>Connect with us!</h4>
+</section>
+<!-- Title -->
+<section class="all text-center">
+	<h3>Let Us Do the Math for You!</h3>
+</section>
+<section class="all text-center">
+	<img src= "equation.jpg" width= "420" />
+</section>
+<br> </br>
+<!-- Pick Format Button -->
+<section class="all text-center">
+<div class="dropdown">
+  <button onclick="drop()" class="dropbtn" >Pick a format</button>
+  <div id="myDropdown" class="dropdown-content">
+    <b href="1" id="multiple" onclick= "multiple()" >Multiple Choice</b>
+    <b href="2" onclick= "free()">Free Response</b>
+    <b href="3" onclick= "both()" >Both</b>
+  </div>
+</div>
+</section>
+<!-- User input -->
+<div id="mc-section">
+  <h1> Number of MC answered correctly: <input type="text" id="txtcorrect"><br></h1>
+  <h1> Number of MC questions: <input type="text" id="txttotal" ><br></h1>
+</div>
+<div id="fr-section"> 
+  <h1> Number of FR answered correctly: <input type="text" id="txtfrqcorrect" ><br></h1>
+  <h1> Number of FR questions: <input type="text" id="txtfreetotal" ><br></h1>
+</div>
+<!-- Calculation Buttons -->
+<section class="all text-center">
+<button id="calcone" type="text" target="_blank" onclick= "calcmult()"> Calculate!</button>
+</section>
+<section class="all text-center">
+<button id="calctwo" type="text" target="_blank" onclick= "calcfree()"> Calculate!</button>
+</section>
+<section class="all text-center">
+<button id="calcthree" type="text" target="_blank" onclick= "calcboth()"> Calculate!</button>
+</section>
+<!-- Result -->
+<section class="all text-center">
+  <h6 id="studentgrade"> Student's Grade:</h6>
+</section>
+<section class= "all text-center">
+<h6 id="result"> </h6>
+</section>
+<br> </br>
+</html>

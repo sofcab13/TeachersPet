@@ -1,0 +1,220 @@
+body{
+    background-color: #99E164;
+}
+c img{
+    float: right;
+    margin:-5px 30px 0px 0px;
+}
+h2{ color: #EB6B6A;
+    font-family:Sans-serif;
+    font-size: 130%;
+    padding: 10px;
+    border: 5px solid white;
+    display: inline-block;
+    margin:20px 0px 20px -75px;
+    }
+h3{ color: #EB6B6A;
+    font-family:sans-serif;
+    font-size: 220%;
+    margin:30px 15px 0px 0px;
+
+    }
+h4{ color: #EB6B6A;
+    font-family:verdana,serif;
+    font-size: 100%;
+    margin:0px 0px -13px 0px;   
+    }
+h5{
+    color:#3b47d2;
+    font-size: 150%;
+    font-family:Sans-serif;
+    padding: 10px;
+    border: 5px solid #fff952;
+    display: inline-block;
+    margin:-10px 0px 12px 0px;
+}
+h8{
+    margin:0px 425px -5px -20px;
+    text-align: center;
+}
+h10{
+    padding: 10px;
+    border: 10px solid white;
+    display: inline-block;
+}
+h11{
+    padding: 15px;
+    border: 5px solid #3b47d2;
+    display: inline-block;
+    margin:10px 125px 30px 0px;
+    vertical-align: center;
+}
+h12{
+    margin:0px 10px 0px 50px;
+    float: right;
+    margin-top: 20px;
+}
+
+div{
+    color: #4F69E6;
+    font-family: verdana;
+    font-size: 200%;
+    }
+.userbutton{
+    color: white;
+    font-family: verdana;
+    font-size: 40%;
+    background-color: #4F69E6;
+    text-align: right;
+    visibility: visible;
+    }
+.logoutbutton{
+    color: white;
+    font-family: verdana;
+    font-size: 40%;
+    background-color: #4F69E6;
+    text-align: right;
+    visibility: hidden;
+    }
+.dropbtn{
+    background-color: #3b47d2;
+    color: white;
+    padding: 22px;
+    font-size: 25px;
+    font-family: sans-serif;
+    border: none;
+    cursor: pointer;
+    }
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #9ea7dd;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}   
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 110px;
+    box-shadow: 0px 8px 14px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content b {
+    color: #35b729;
+    padding: 12px 16px;
+    font-size: 22%;
+    display: block;
+}
+.dropdown-content b:hover {background-color: #f1f1f1}
+.show {display:block;}
+#mc-section{
+    color: #4F69E6;
+    font-family: verdana;
+    font-size: 110%;
+    text-align: center;
+    visibility: hidden;
+}
+#fr-section{
+    color: #4F69E6;
+    font-family: verdana;
+    font-size: 110%;
+    text-align: center;
+    visibility: hidden;
+}
+#studentgrade{
+    color: white;
+    font-family:verdana,serif;
+    font-size: 175%;
+    visibility: hidden;
+}
+#result{
+    color: red;
+    font-family:verdana,serif;
+    font-size: 200%;
+    visibility: hidden;
+    margin-top: -10px;
+}
+#calcone{
+    background-color:#35b729;
+    color: white;
+    padding: 20px;
+    font-size: 23px;
+    font-family:verdana,serif;
+    border: none;
+    cursor: pointer;
+    visibility: hidden;
+}
+#calctwo{
+    background-color:#35b729;
+    color: white;
+    padding: 20px;
+    font-size: 23px;
+    font-family:verdana,serif;
+    border: none;
+    cursor: pointer;
+    visibility: hidden;
+}
+#calcthree{
+    background-color:#35b729;
+    color: white;
+    padding: 20px;
+    font-size: 23px;
+    font-family:verdana,serif;
+    border: none;
+    cursor: pointer;
+    visibility: hidden;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+.all{
+    width: 100%;
+}
+.half{
+    width: 50%;
+}
+.quarter{
+    width: 25%;
+}
+.third{
+    width: 33.3333%;
+}
+.three-quarter{
+    width: 75%
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EB6B6A;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    font-family:verdana,serif;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #3b47d2;
+}
+.active {
+    background-color: #3b47d2;
+}
